@@ -17,6 +17,7 @@
 		07863E25233981890000BC7F /* BottomSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07863E24233981890000BC7F /* BottomSheetView.swift */; };
 		07863E27233981F00000BC7F /* HeightBottomSheetOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07863E26233981F00000BC7F /* HeightBottomSheetOptions.swift */; };
 		07863E29233994CF0000BC7F /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07863E28233994CF0000BC7F /* UIView+Extensions.swift */; };
+		07863E2C23399B4B0000BC7F /* sample.gif in Resources */ = {isa = PBXBuildFile; fileRef = 07863E2B23399B4B0000BC7F /* sample.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		07863E24233981890000BC7F /* BottomSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetView.swift; sourceTree = "<group>"; };
 		07863E26233981F00000BC7F /* HeightBottomSheetOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeightBottomSheetOptions.swift; sourceTree = "<group>"; };
 		07863E28233994CF0000BC7F /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		07863E2B23399B4B0000BC7F /* sample.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = sample.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 		07863DE923397AC70000BC7F = {
 			isa = PBXGroup;
 			children = (
+				07863E2A23399B4B0000BC7F /* gif */,
 				07863DF423397AC70000BC7F /* BottomSheetView */,
 				07863E0923397AC80000BC7F /* BottomSheetViewTests */,
 				07863E1423397AC80000BC7F /* BottomSheetViewUITests */,
@@ -140,6 +143,14 @@
 				07863E28233994CF0000BC7F /* UIView+Extensions.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		07863E2A23399B4B0000BC7F /* gif */ = {
+			isa = PBXGroup;
+			children = (
+				07863E2B23399B4B0000BC7F /* sample.gif */,
+			);
+			path = gif;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,6 +257,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07863E2C23399B4B0000BC7F /* sample.gif in Resources */,
 				07863E0023397AC80000BC7F /* LaunchScreen.storyboard in Resources */,
 				07863DFD23397AC80000BC7F /* Assets.xcassets in Resources */,
 				07863DFB23397AC70000BC7F /* Main.storyboard in Resources */,
