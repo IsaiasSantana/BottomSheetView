@@ -1,4 +1,4 @@
 # BottomSheetView
 Simple sample BottomSheet view.
 
-![demo](gif/sample.gif)
+![demo](/gif/sample.gif)
